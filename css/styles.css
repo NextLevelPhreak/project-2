@@ -68,7 +68,7 @@ h1 {
 strong {
   font-weight: 500;
 }
-.end-nav {
+nav {
   margin:1em;
 }
 footer {
@@ -114,5 +114,21 @@ li {
 }
 .column {
     width: 50%;
+  }
 }
-@media screen and (min-width:1024px)
+@media screen and (min-width:1024px) {
+
+.start {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.column {
+  width: 30%;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+}
