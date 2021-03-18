@@ -5,13 +5,14 @@
       <title>Mobile First Responsive Layout</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/styles.css">
-      <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
   <div class="start">
   <p class="top-name">Austin Baxter</p>
     <nav class="main-nav">
-      <ul>
+      <ul class="top-nav">
         <li><a href="index.html#">Home</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -68,9 +69,15 @@
           </div>
         </nav>
     <footer>
-        <div class="last-name">Austin Baxter</div>
-        <a href="index.html#"></a>
-        <div class="last-link">back to top</div>
+        <nav class="footer-nav">
+          <div class="last-name">Austin Baxter</div>
+          <a class="back-to-top" href="index.html#">back to top</a>
+          <ul class="bottom-nav">
+            <li><a href="index.html#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
     </footer>
     </body>
 </html>
